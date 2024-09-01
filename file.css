@@ -1,0 +1,77 @@
+body{background-image: url(immagini/background.jpg);
+    background-size: cover;
+    font-family: "Inter", sans-serif;
+}
+
+#container{
+    height: 600px;
+    width: 900px;
+    padding-top: 80px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+header{
+    text-align: center;
+}
+
+#sottotitolo{
+    display: block;
+    font-weight: 400;
+    font-size: xx-large;
+    color: lime;
+}
+
+img{
+    width: 200px;
+}
+
+nav{
+    background-color: lime;
+    width: 700px;
+    height: 40px;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 10px;
+    text-align: center;
+}
+
+main{
+    margin: 25px 100px;
+    color: white;
+}
+
+section{
+    box-sizing: border-box;
+    height: 110px;
+}
+
+#nomemonopattino{
+    font-size: larger;
+}
+
+#posizionemonopattino{
+    font-size: small;
+}
+
+#carica1{
+    border: 13px solid orange;
+    width: 250px;
+    display: block;
+    border-radius: 5px;
+}
+
+#carica2{
+    border: 13px solid green;
+    width: 600px;
+    display: block;
+    border-radius: 5px;
+}
+
+#carica3{
+    border: 13px solid red;
+    width: 150px;
+    display: block;
+    border-radius: 5px;
+}
